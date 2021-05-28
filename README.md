@@ -9,7 +9,7 @@
 ## 2. 文件说明：  
 &#8195;&#8195;文件4.2当中包含的[main.py](https://github.com/fengjiang5/paper-code-2021/blob/main/jf%20paper%20code/4.2/main.py)用于进行卷积神经网络与全连接网络的对比实验。文件可直接运行。  
 &#8195;&#8195;文件4.3用于进行经典卷积神经网络的对比实验，其中的[AlexNet_VGG.ipynb](https://github.com/fengjiang5/paper-code-2021/blob/main/jf%20paper%20code/4.3/AlexNet_VGG%20.ipynb)包含AlexNet与VGG，可以使用Google Colab在线打开也可使用本地jupyter notebook打开；[Googlenet.ipynb](https://github.com/fengjiang5/paper-code-2021/blob/main/jf%20paper%20code/4.3/Googlenet.ipynb)包含GoogLeNet的Inception1，打开方式同上；[Resnet18.ipynb](https://github.com/fengjiang5/paper-code-2021/blob/main/jf%20paper%20code/4.3/Res18.ipynb)包含ResNet18模型，打开方式同上。  
-&#8195;&#8195;文件4.4用于进行残差网络的深度增加实验，[Resnet.ipynb](https://github.com/fengjiang5/paper-code-2021/blob/main/jf%20paper%20code/4.4/res/Resnet.ipynb)包含所需五种模型的定义，并且可以直接训练测试，Loss/Accuracy会直接保存在生成的txt文档中。*注：此代码运行时间较长*&#8195;from:clock8:to:clock4:  
+&#8195;&#8195;文件4.4用于进行残差网络的深度增加实验，[Resnet.ipynb](https://github.com/fengjiang5/paper-code-2021/blob/main/jf%20paper%20code/4.4/res/Resnet.ipynb)包含所需五种模型的定义，并且可以直接训练测试，Loss/Accuracy会直接保存在生成的txt文档中。此文件为epoch=50的情况。*注：此代码运行时间较长*&#8195;from:clock8:to:clock4:  
 &#8195;&#8195;文件4.5包含用于可视化比较优化方法的[optimizar.ipynb](https://github.com/fengjiang5/paper-code-2021/blob/main/jf%20paper%20code/4.5/optimizar.ipynb)，文件插入了包ipywidgets来交互地调整参数。方法及效果如下。
 ```Python
 from ipywidgets import *
